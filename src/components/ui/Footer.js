@@ -25,7 +25,7 @@ export default function Footer() {
                 <Toolbar className={classes.center} >
                     <div>
                         <Typography variant="body2" style={{ color: 'white', textAlign: 'center' }}>
-                            Made By <br></br> Yuvara | Hari Prakash | Vaibhava Priya
+                            Made By <br></br> Yuvaraj | Hari Prakash | Vaibhava Priya
                         </Typography>
                     </div>
                 </Toolbar>

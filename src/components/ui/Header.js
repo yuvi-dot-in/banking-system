@@ -141,11 +141,11 @@ export default function Header(props) {
     const routes = [
         { name: 'Home', link: '/', activeIndex: 0 },
         {
-            name: 'Users', link: '/users', activeIndex: 1
+            name: 'Check Balance', link: '/users', activeIndex: 1
         },
         { name: 'Create User', link: '/create', activeIndex: 2 },
-        { name: 'All Transcation', link: '/history', activeIndex: 3 },
-        { name: 'About Me', link: '/about', activeIndex: 4 },
+        { name: 'Transcation History', link: '/history', activeIndex: 3 },
+
         { name: 'Contact Us', link: '/contact', activeIndex: 5 },
 
     ];
@@ -202,7 +202,7 @@ export default function Header(props) {
                 to='/transfer'
                 onClick={() => props.setValue(6)}
             >
-                Transfer
+                Transfer Funds
             </Button>
         </React.Fragment>
 
